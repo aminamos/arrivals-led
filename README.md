@@ -130,6 +130,10 @@ I've included a couple of models for 3D-printed parts that might be useful:
 - **Colours look wrong**: The panels are assumed to be wired in RBG order. If your panels use standard RGB wiring, change `RGB_SEQUENCE = "RBG"` to `"RGB"` in `arrivals.py`.
 - **Power**: If you have any power issues, try powering the Pi separately via its standard USB adapter.
 
+## ESP32 variant: E Line door display
+
+[e-line-door-display/](e-line-door-display/) — same 128×32 panels driven by an ESP32 instead of a Pi, showing northbound METRO E Line departures at Hennepin & Spruce (stop 17941, Minneapolis College) from the free NexTrip API.
+
 ## Attribution
 
 The bundled bitmap font was generated based on [London Underground Dot Matrix Regular](https://github.com/petykowski/London-Underground-Dot-Matrix-Typeface).
